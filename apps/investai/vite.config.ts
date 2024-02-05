@@ -25,7 +25,8 @@ export default defineConfig({
   // },
 
   build: {
-    outDir: '../../dist/apps/investai',
+    // outDir: '../../dist/apps/investai',
+    outDir: './build/investai',
     reportCompressedSize: true,
     commonjsOptions: {
       transformMixedEsModules: true,
