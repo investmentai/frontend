@@ -1,0 +1,8 @@
+{
+  "name": "investai",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/investai/src",
+  "projectType": "application",
+  "targets": {},
+  "tags": []
+}
