@@ -1,0 +1,48 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+djangorestframework-simplejwt = "*"
+django-redis = "*"
+django-cors-headers = "*"
+psycopg2-binary = "*"
+django-encrypted-secrets = "*"
+pandas = "*"
+numpy = "*"
+sqlalchemy = "*"
+celery-progress = "*"
+celery = "*"
+django-encrypted-model-fields = "*"
+langchain = "*"
+langchain-experimental = "*"
+openai = "*"
+jupyter = "*"
+ipython = "*"
+elasticsearch = "*"
+qdrant-client = "*"
+tiktoken = "*"
+sentence-transformers = "*"
+pypdf = "*"
+docx2txt = "*"
+unstructured = "*"
+python-docx = "*"
+awscli = "*"
+clarifai = "*"
+django-celery-progress = "*"
+redis = "*"
+redisvl = "*"
+langchain-openai = "*"
+rapidocr-onnxruntime = "*"
+setuptools = "*"
+python-dotenv = "*"
+langchainhub = "*"
+notebook = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"

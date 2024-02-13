@@ -15,7 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@investai/prompt": ["libs/prompt/src/index.ts"]
+      "@investai/apiservice": ["libs/shared/src/lib/apiservice/src/index.ts"],
+      "@investai/prompt": ["libs/prompt/src/index.ts"],
+      "@investai/report": ["libs/report/src/index.ts"],
+      "@investai/shared": ["libs/shared/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

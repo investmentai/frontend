@@ -1,0 +1,64 @@
+/*
+ * Replace this with your own classes
+ *
+ * e.g.
+ * .container {
+ * }
+*/
+.uploadcontainer{
+    font-family: Arial, Tahoma;
+    font-size: 12px !important;
+    padding: 5px !important;
+}
+
+.formtitle{
+    font-family: Arial, Tahoma;
+    font-size: 13px !important; 
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.fileselect{
+    background-color: #666 !important;
+    font-size: 12px !important; 
+    min-width: 120px !important;
+    text-transform: none !important;
+    margin: 5px 0 !important;
+}
+
+.uploadbtn{
+    font-size: 12px !important; 
+    text-transform: none !important;
+    margin: 5px 10px 5px !important;
+}
+
+.uploadbtn:active{
+    background-color: #333 !important;
+}
+
+.uploadfiles a{
+    font-size: 12px !important; 
+    color: #111 !important;
+    text-decoration: none !important;
+    margin: 0 !important;
+}
+
+.iconfile{
+    color: olive !important;
+}
+
+.delfile{
+    color: indianred !important;
+}
+
+.uploadfile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: last baseline;
+}
+
+.uploadfname{
+    max-width: 80%;
+    padding-left: 6px;
+}

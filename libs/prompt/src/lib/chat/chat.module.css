@@ -1,0 +1,45 @@
+/*
+ * Replace this with your own classes
+ *
+ * e.g.
+ * .container {
+ * }
+*/
+
+.main-container {
+    height: '100vh';
+}
+
+.columngrd{
+    border: none;
+    padding: 10px 5px;
+}
+
+.columngrd .MuiContainer-root{
+    padding: 0 !important;
+}
+
+.column {
+    height: 100%;
+    padding: 6px !important;
+    display: 'flex'; 
+    flex-direction: column; 
+    border: none;
+    min-height: '100vh';
+    box-shadow: none !important;
+}
+
+.column3{
+    border-left: solid 1px #999 !important;
+    vertical-align: bottom;
+    min-height: 500px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+    font-size: 10x !important; 
+}
+
+.promptmsg{
+    font-family: Arial, Tahoma;
+    font-size: 11x !important; 
+    padding: 6px 4px ;
+}

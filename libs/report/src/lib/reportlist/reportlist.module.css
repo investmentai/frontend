@@ -1,0 +1,25 @@
+/*
+ * Replace this with your own classes
+ *
+ * e.g.
+ * .container {
+ * }
+*/
+.container.Mui-expanded{
+    min-height: 24px !important;
+}
+
+.reportlst{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.reportlst:active,
+.reportlst:link{
+    background-color: aliceblue !important;
+}
+
+.reportlstxt{
+    font-size: 11px !important;
+    padding-left: 10px !important;
+}

@@ -1,0 +1,76 @@
+/*
+ * Replace this with your own classes
+ *
+ * e.g.
+ * .container {
+ * }
+*/
+
+.promptcontainer{    
+    position: fixed;
+    flex-direction: row;
+    bottom: 0.5%; 
+    right: 0.5%;  
+    transform: translateX(-0.5%); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 2px !important;
+    width: 30% !important;
+    z-index: 11;
+    margin: 0;
+    border-radius: 6px;
+    background-color: aliceblue;
+}
+
+.promptext{
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    min-width: 200px;
+    margin-right: 0px !important;
+    display: flex;
+    flex-direction: column;
+    border: none !important;
+}
+
+.promptext textarea{
+    display: flex;
+    flex-direction: flex-start;
+    margin: 0 !important;
+    flex-grow: 1;
+    height: auto;
+    padding-left: 4px !important;
+    min-height: 24px;
+    max-height: 336px;
+    overflow-y: hidden;
+    outline: none !important;
+    box-shadow: none !important;
+    line-height: 24px !important;
+    font-size: 13px;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.grdpromptbtn{
+    padding: 16px 2px !important;
+    /* max-width: 30px; */
+}
+
+.promptbtn{
+    display: flex;
+    background-color: aliceblue !important;
+    /* line-height: 2.4; */
+    border: none !important;
+    color: #111 !important;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: flex-end;
+    align-items: flex-end;
+    padding: 16px 2px !important;
+    /* width: 16px !important; */
+    min-width: 20px !important;
+    outline: none !important;
+    box-shadow: none !important;
+    /* min-width: 50px !important; */
+}

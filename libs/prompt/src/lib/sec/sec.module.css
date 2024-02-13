@@ -1,0 +1,33 @@
+/*
+ * Replace this with your own classes
+ *
+ * e.g.
+ * .container {
+ * }
+*/
+
+.seccontainer{
+    font-family: Arial, Tahoma;
+    font-size: 12px !important;
+    padding: 5px !important;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.btn{
+    font-size: 12px !important; 
+    text-transform: none !important;
+    margin: 5px 10px 5px !important;
+}
+
+.txtbox{
+    font-size: 12px !important; 
+    text-transform: none !important;
+    margin: 5px 10px 5px !important;
+    /* line-height: 24px !important;
+    height: 24px !important; */
+}
+
+.txtbox label{
+    font-size: 12px !important; 
+}
