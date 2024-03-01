@@ -41,6 +41,13 @@ setuptools = "*"
 python-dotenv = "*"
 langchainhub = "*"
 notebook = "*"
+chromadb = "*"
+langchain-google-vertexai = "*"
+langchain-google-genai = "*"
+tensorflow = "*"
+google-cloud-aiplatform = "*"
+tensorflow-hub = "*"
+google-cloud-bigquery = "*"
 
 [dev-packages]
 
